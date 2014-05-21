@@ -74,6 +74,17 @@ body {
 	padding: 1em;
 }
 
+.classdata {
+	clear:both;
+}
+.classdata > *:first-child {
+	font-weight: bold;
+	width: 7.5em;
+	margin-right: 1.25em;
+	text-align: right;
+	float:left;
+}
+
 .headtextcont {
 	position:absolute;
 	right:90px;
@@ -129,13 +140,13 @@ body {
 .list {
 	margin-top:-10px;
 	list-style-type:cicle;
-	width:330px;
+	/*width:330px;*/
 }
 
 .listi {
 	font: 13px/18px "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Helvetica,Arial,sans-serif;	
 	line-height:1.5em;
-	width:330px;
+	/*width:330px;*/
 	margin:6px;
 }
 
