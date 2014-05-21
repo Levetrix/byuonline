@@ -17,6 +17,7 @@ body {
 }
 
 .bar {
+	z-index:-1000;
 	width: 100%;
 	position:absolute;
 	top:0;
@@ -28,9 +29,17 @@ body {
 }
 
 .logo {
-	margin-top:10px;
-	margin-left:15%;
+	margin-left: calc(15% + 375px);
+	margin-top:7px;
 }
+
+
+
+.byu {
+	max-height: 75%;
+	margin-left: 15%;
+}
+
 .subcontainter {
 	position:relative;
 	left:50%;
@@ -140,7 +149,7 @@ body {
 }
 
 .new {
-	color:#2FB2E1;	
+	color:#444;	
 }
 
 .info {
