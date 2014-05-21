@@ -1,0 +1,237 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color:white;	
+	font: 13px/18px "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Helvetica,Arial,sans-serif;
+	color:#444;
+	margin:0;
+}
+
+#header-top {
+	margin-bottom: 0.5em;
+}
+
+.head {
+	margin-top:-10
+	position:relative;
+	width:100%;
+	height:413px;	
+	margin:0;
+}
+
+.bar {
+	z-index:-1000;
+	width: 100%;
+	position:absolute;
+	top:0;
+	left: 0;
+	background: url(topbar.png);
+	height:80px;
+	background-size: 100%;
+	
+}
+
+.logo {
+	margin-left: calc(15% + 375px);
+	margin-top:7px;
+	float: left;
+}
+
+.byuonline {
+	text-align: left;
+}
+
+.subcontainter {
+	position:relative;
+	left:50%;
+	margin-left:-500px;
+	max-width:1000px;
+	margin-top: 0px;
+}
+
+.top-box {
+	margin-top: 2.5em;
+}
+
+.top-box + *, .clearboth {
+	clear: both;
+}
+
+.float-right {
+	max-width: 35em;
+	float: right;
+}
+
+.subhead:first-child {
+	margin-top: 0;
+}
+
+.girl {
+	width:500px;
+	/*margin-top:80px;*/
+	float: left;
+	padding: 1em;
+}
+
+.headtextcont {
+	position:absolute;
+	right:90px;
+	width:600px;
+	top:110px;
+}
+
+.header {
+	font: bold 36px/36px "Palatino Linotype","Palatino",Times,"Times New Roman",serif;
+	text-align:right;
+	color: #036;
+	
+}
+
+.headcontent {
+	margin-right:75px;
+	text-align:left;
+	margin-top:-15px;
+	width:220px;	
+	float:right;
+	font-size:14px;
+	line-height:20px;
+}
+
+.top {
+	position:absolute;
+	top:200px;
+	right:150px;	
+}
+
+.container{
+	position:relative;
+	top:0px;
+	left:15%;
+	width:500px;
+}
+
+.subhead {
+	font: bold 24px/27px "Palatino Linotype","Palatino",Times,"Times New Roman",serif;
+	font-weight:bold;
+	color:#036;
+	margin-top:50px;
+}
+
+.why {
+	position:absolute;
+	width:275px;
+	top:72px;
+	left:430px;
+	margin:0px;	
+}
+
+.list {
+	margin-top:-10px;
+	list-style-type:cicle;
+	width:330px;
+}
+
+.listi {
+	font: 13px/18px "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Helvetica,Arial,sans-serif;	
+	line-height:1.5em;
+	width:330px;
+	margin:6px;
+}
+
+.courses {
+	margin-top:-10px;
+	position:relative;
+	height:125px;
+	margin-bottom: 420px;
+	margin-top:40px;
+	
+		
+}
+
+.subcourses {
+	margin-top:-10px;
+	margin-left:20px;
+	width:375px;
+	/*height:200px;*/
+	
+}
+
+.number {
+	float:left;
+	font: bold 13px/14px "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Helvetica,Arial,sans-serif;
+	text-align:right;
+}
+
+.name {
+	float:right;
+	font: 13px/14px "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Helvetica,Arial,sans-serif;
+	font-style:italic;
+}
+
+.new {
+	color:#444;	
+}
+
+.info {
+	font-family: 13px/18px "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Helvetica,Arial,sans-serif;;
+	padding-top:20px;
+	clear:both;
+	font-size: 13px;
+	line-height:1.5em;
+	width:670px;
+		
+}
+
+.infop {
+	display:block;
+	margin-top:-10px;	
+}
+	
+	
+.register {
+	margin-top:0px;	
+	font: 13px/18px "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Helvetica,Arial,sans-serif;	
+}
+
+.registertext {
+	margin-top: -10px
+}
+
+.information {
+	margin-top:-15px;	
+}
+	
+.questions {
+	margin-top:-10px;	
+}
+	
+.button {
+	background-color:#2F6F8E;
+	height:20px;
+	width: 120px;	
+	text-align:center;
+	color:white;
+	padding:auto inherit;
+	border-radius:10px;
+	box-shadow: black 10px;
+
+}
+
+.normal {
+	text-decoration:none;	
+}
+
+.bottom {
+	margin-top:30px;
+	margin-left:10px;	
+}
+	
+.spacer {
+	height:100px;	
+}
+	
+	
+	
+
+
