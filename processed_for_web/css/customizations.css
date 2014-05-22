@@ -47,11 +47,11 @@ body {
 	left:50%;
 	margin-left:-500px;
 	max-width:1000px;
-	margin-top: 0px;
+	0;
 }
 
 .top-box {
-	margin-top: 2.5em;
+	margin-top: 2.5em;	
 }
 
 .top-box + *, .clearboth {
@@ -64,7 +64,7 @@ body {
 }
 
 .subhead:first-child {
-	margin-top: 0;
+	margin-top: 40px;
 }
 
 .girl {
@@ -130,11 +130,9 @@ body {
 }
 
 .why {
-	position:absolute;
-	width:275px;
-	top:72px;
-	left:430px;
-	margin:0px;	
+	float:right;
+	max-width:425px;
+	margin-top:10px;
 }
 
 .list {
@@ -201,7 +199,9 @@ body {
 	
 	
 .register {
-	margin-top:0px;	
+	max-width:450px;
+	float:left;
+	margin-top:10px;	
 	font: 13px/18px "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Helvetica,Arial,sans-serif;	
 }
 
@@ -241,8 +241,14 @@ body {
 .spacer {
 	height:100px;	
 }
-	
-	
-	
 
+.coursediv {
+	float:left;	
+}
+	
+.center {
+	text-align:center;	
+}
 
+.mainhead {	
+}
